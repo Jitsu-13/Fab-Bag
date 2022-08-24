@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+footer{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid greenyellow; */
+    margin-top: 20px;
+}
+#foot_body{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* border: 1px solid red; */
+}
+#info>div,#customer>div{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#foot_body>div>h4{
+    font-size: 20px;
+    font-weight: 50;
+}
+#foot_body>div>div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    color: gray;
+}
+#info>div>a{
+    text-decoration: none;
+    line-height: 40px;
+    color: gray;
+    
+}
+#update{
+    display: flex;
+    gap: 20px;  
+}
+#update>input{
+    padding: 10px 0px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+}
+#update>button{
+    color: white;
+    background-color: goldenrod;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#social{
+    width: 20%;
+    display: flex;
+    gap:10px;
+    /* border: 1px solid teal; */
+    margin:auto;
+    justify-content: space-evenly;
+    color: gray;
+    size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer>div>p{
+    text-align: center;
+    font-size:1.5em;
+    color: gray;
+}
+
+/* Medium Screen */
+@media screen and (max-width:992px){
+    #foot_body{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+    }
+    #info{
+        grid-area: 1/1/3/2;
+    }
+    #news{
+        grid-area: 2/2/3/3;
+    }
+    #copy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 40px;
+    }
+    #social{
+        width: 50%;
+        display: flex;
+        gap:10px;
+        /* border: 1px solid teal; */
+        margin:auto;
+        justify-content: space-evenly;
+        color: gray;
+        size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Small Screen */
+
+@media screen and (max-width:769px){
+    footer{
+        width:90%
+    }
+    #foot_body{
+        display: grid;
+        grid-template-columns: repeat(1,100vws);
+    }
+    #customer{
+        grid-area: 3/1/4/2;
+        width: 90%;
+        border: 1px solid red;  
+    }
+    #news{
+        grid-area: 4/1/5/2;
+    }
+    
+}
