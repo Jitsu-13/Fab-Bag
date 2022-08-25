@@ -71,6 +71,7 @@ footer>div>p{
     text-align: center;
     font-size:1.5em;
     color: gray;
+    margin-bottom: 20px;
 }
 
 /* Medium Screen */
@@ -107,20 +108,48 @@ footer>div>p{
 /* Small Screen */
 
 @media screen and (max-width:769px){
-    footer{
-        width:90%
-    }
     #foot_body{
         display: grid;
-        grid-template-columns: repeat(1,100vws);
+        grid-template-columns: repeat(1,90vw);
     }
     #customer{
         grid-area: 3/1/4/2;
-        width: 90%;
-        border: 1px solid red;  
+        width: 100%;
+        /* border: 1px solid red;   */
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
     #news{
         grid-area: 4/1/5/2;
+    }
+    #update{
+        display: block;
+    }
+    #update>input,#update>button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #copy{
+        display: block;
+    }
+    #social{
+        width: 50%;
+        display: flex;
+        gap:10px;
+        /* border: 1px solid teal; */
+        margin:auto;
+        justify-content: space-evenly;
+        color: gray;
+        size: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer>div>p{
+        text-align: center;
+        font-size:1.5em;
+        color: gray;
+        margin-bottom: 20px;
     }
     
 }
