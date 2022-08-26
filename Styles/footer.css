@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 footer{
-    width: 90%;
-    margin: auto;
-    /* border: 1px solid greenyellow; */
+    width: 100%;
+    /* border: 1px solid greenyellow;    */
     margin-top: 20px;
 }
 #foot_body{
-    
+    width:90%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     /* border: 1px solid red; */
+    margin: auto;
 }
 #info>div,#customer>div{
     font-size: 20px;
@@ -110,7 +110,7 @@ footer>div>p{
 @media screen and (max-width:769px){
     #foot_body{
         display: grid;
-        grid-template-columns: repeat(1,90vw);
+        grid-template-columns: repeat(1,90%);
     }
     #customer{
         grid-area: 3/1/4/2;
