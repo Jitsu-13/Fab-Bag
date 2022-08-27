@@ -130,6 +130,18 @@
     border: none;
     border-bottom: 2px solid gray ;
 }
+#dropdown{
+    display: none;
+    width: 0%;
+    max-width: 100vw;
+    position: fixed;
+    right: 5%;
+    background-color: white;
+    z-index: 1000;
+}
+#dropdown>div{
+    padding:5px 5px;
+}
 
 
 
