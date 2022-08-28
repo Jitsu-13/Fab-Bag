@@ -53,10 +53,9 @@ let Navbar_HTML=`<div id="container_navbar">
     <hr>
     <div>Checkout</div>
     <hr>
-    <div id="signin"> href="./signup.html">Sign In</a></div>
-    
+    <div id="signin"><a style="text-decoration:none;color:black" href="./signup.html">Sign In</a></div>
     <hr>
-    <div id="signup"><a style="text-decoration:none;" href="./signup.html">Create An Account</a></div>
+    <div id="signup"><a style="text-decoration:none;color:black" href="./signup.html">Create An Account</a></div>
 </div>`;
 
 let Navbar =document.querySelector("nav")
