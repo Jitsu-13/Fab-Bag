@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/sigin.css">
+    <link rel="stylesheet" href="./Styles/navbar.css">
+    <link rel="stylesheet" href="./Styles/footer.css">
+</head>
+<body>
+    <nav></nav>
+    <div id="signup_container">
+        <p id="title">Create An Account</p>
+        <div>
+            <button>Sign In with Facebook</button>
+            <button>Sign In width Google</button>
+            <form id="signupForm">
+                <h3>First Name*</h3>
+                <input type="text" id="first_name" >
+                <h3>Last Name</h3>
+                <input type="text" id="last_name" >
+                <h3>Your Email Address*</h3>
+                <input type="email" id="email" >
+                <h3>Your Password</h3>
+                <input type="password" id="password" >
+                <input type="submit" value="Create An Account" id="signup_up">
+            </form>
+            <p style="text-align: center;margin-bottom:20px">or</p>
+            <button style="background-color: goldenrod;text-align: center;border: none;padding: 10px 0px;"  id="create_accont_up">Sign In</button>
+        </div>
+    </div>
+    <div id="signin_container">
+        <p id="title">Sign In</p>
+        <div>
+            <button>Sign In with Facebook</button>
+            <button>Sign In width Google</button>
+            <form id="signinForm">
+                <h3>Email Address*</h3>
+                <input type="email" id="in_email" >
+                <h3>Password</h3>
+                <input type="password" id="in_password" >
+                <div>
+                    <p style="color: red;">* Required Fields</p>
+                    <p>Forgot your password?</p>
+                </div>
+                <input type="submit" value="Sign In" id="signin_in">
+            </form>
+            <p style="text-align: center;margin-bottom:20px">or</p>
+            <button style="background-color: goldenrod;text-align: center;border: none;padding: 10px 0px;"  id="create_accont_in">Create an Account</button>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+<script src="./Scripts/navbar.js"></script>
+<script src="./Scripts/footer.js"></script>
+<script src="./Scripts/sigin.js"></script>
+</html>

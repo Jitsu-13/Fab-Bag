@@ -6,14 +6,16 @@
 #container{
     width: 80%;
     height: auto;
-    border: 1px solid  black;
+    /* border: 1px solid  black; */
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 20px;
+    margin-top:50px;
+    
 }
 #container>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #container>div:nth-child(2)>#headline{
     font-size: 2em;
