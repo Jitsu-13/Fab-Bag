@@ -1,0 +1,47 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#signin_container,#signup_container{
+    width: 30%;
+    margin: auto;
+    /* border: 1px solid red; */
+    height:auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+#title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+#signin_container>div>button:nth-child(2),#signup_container>div>button:nth-child(2){
+    background-color: #dd4b39;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+#signin_container>div>button:nth-child(1),#signup_container>div>button:nth-child(1){
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    padding-left: 10px;
+}
+#signin_container>div>button,#signin_container>div>form>input,#signup_container>div>button,#signup_container>div>form>input{
+    width:100%;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+#signin_container>div>form>#signin_in,#signup_container>div>form>#signup_up{
+    text-align: center;
+    background-color: goldenrod;
+    border: none;
+}
+#signin_container>div>form>div{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

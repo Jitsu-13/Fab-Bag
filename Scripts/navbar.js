@@ -3,10 +3,12 @@ let Navbar_HTML=`<div id="container_navbar">
     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
 </svg> -->
     <div>
-    <a style="text-decoration:none; color:goldenrod" href="./subscribe.html"><h2>SUBSCRIBE NOW</h2></a>
+        <a style="text-decoration:none; color:goldenrod" href="./subscribe.html"><h2>SUBSCRIBE NOW</h2></a>
     </div>
     <div>
+       <a href="./index.html">
         <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO-Printing1_6350cdb4-8c03-49a8-bd2e-c8df50c83b37_2048x.png?v=1660282958" alt="logo">
+        </a>
     </div>
     <div>
         <svg id="search" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -51,9 +53,10 @@ let Navbar_HTML=`<div id="container_navbar">
     <hr>
     <div>Checkout</div>
     <hr>
-    <div>Sign In</div>
+    <div id="signin"> href="./signup.html">Sign In</a></div>
+    
     <hr>
-    <div>Create An Account</div>
+    <div id="signup"><a style="text-decoration:none;" href="./signup.html">Create An Account</a></div>
 </div>`;
 
 let Navbar =document.querySelector("nav")

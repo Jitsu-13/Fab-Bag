@@ -73,6 +73,7 @@
 #description{
     width: 50%;
     margin: auto;
+    margin-bottom:50px;
 }
 #description>p,#description>ul>li{
     font-size: 1.2em;
